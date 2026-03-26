@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digital Products Store</title>
+
+<!-- PayPal SDK Script -->
+<script src="https://www.paypal.com/sdk/js?client-id=BAAHhQ3fC2Fi24zo2r0pnClInhtn3Ftb-V2In7NFSQqZT2EuyonzvO-GM-qd8lXbZwZgCEj7EskLbebgLk&components=hosted-buttons&disable-funding=venmo&currency=USD"></script>
+
+<style>
+  body {font-family: Arial, sans-serif; margin:0; padding:0;}
+  .navbar {background:#222; color:#fff; padding:1rem; text-align:center; font-size:1.5rem;}
+  .container {display:flex; flex-wrap:wrap; justify-content:center; padding:2rem; gap:2rem;}
+  .product {border:1px solid #ccc; border-radius:5px; padding:1rem; width:200px; text-align:center;}
+  .product img {width:100%; height:auto; border-radius:5px;}
+  .price {font-weight:bold; margin:0.5rem 0;}
+  .pp-NLAJWPHTWUEQ2{background-color:#FFD140; border:none; padding:0.5rem 1rem; cursor:pointer; font-weight:bold;}
+</style>
+</head>
+
+<body>
+
+<div class="navbar">Digital Products Store</div>
+
+<div class="container">
+
+  <!-- Product 1 -->
+  <div class="product">
+    <img src="habit.jpg" alt="Habit Tracker">
+    <h3>Habit Tracker</h3>
+    <p class="price">$18</p>
+    <form action="https://www.paypal.com/ncp/payment/NLAJWPHTWUEQ2" method="post" target="_blank">
+      <input class="pp-NLAJWPHTWUEQ2" type="submit" value="Buy Now">
+    </form>
+  </div>
+
+  <!-- Product 2 -->
+  <div class="product">
+    <img src="ebook1.jpg" alt="Ebook HTML">
+    <h3>Ebook HTML</h3>
+    <p class="price">$15</p>
+    <form action="https://www.paypal.com/ncp/payment/NLAJWPHTWUEQ3" method="post" target="_blank">
+      <input class="pp-NLAJWPHTWUEQ2" type="submit" value="Buy Now">
+    </form>
+  </div>
+
+  <!-- Product 3 -->
+  <div class="product">
+    <img src="ebook2.jpg" alt="CSS Guide">
+    <h3>CSS Guide</h3>
+    <p class="price">$12</p>
+    <form action="https://www.paypal.com/ncp/payment/NLAJWPHTWUEQ4" method="post" target="_blank">
+      <input class="pp-NLAJWPHTWUEQ2" type="submit" value="Buy Now">
+    </form>
+  </div>
+
+  <!-- Product 4 -->
+  <div class="product">
+    <img src="toolkit.jpg" alt="Developer Toolkit">
+    <h3>Developer Toolkit</h3>
+    <p class="price">$20</p>
+    <form action="https://www.paypal.com/ncp/payment/NLAJWPHTWUEQ5" method="post" target="_blank">
+      <input class="pp-NLAJWPHTWUEQ2" type="submit" value="Buy Now">
+    </form>
+  </div>
+
+</div>
+</body>
+</html>
